@@ -17,12 +17,12 @@ const saveButton = (e) => {
       saved.classList.toggle('hidden')
       // solidIcon.classList.toggle('hidden')
       // show the loading icon for a certain amount of time
-        setInterval(() => { 
-          loadingIcon.classList.remove('hidden')
-          console.log('set interval triggered')
-        }, 1000)
+        // setTimeout(() => { 
+        //   loadingIcon.classList.remove('hidden')
+        //   console.log('set interval triggered')
+        // }, 1000)
       // show the solid heart
-      // solidIcon.classList.toggle('hidden')
+      solidIcon.classList.toggle('hidden')
 }
 
 
